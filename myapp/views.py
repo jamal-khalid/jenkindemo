@@ -3,7 +3,7 @@ from rest_framework.views import APIView
 from rest_framework.response import Response
 # Create your views here.
 def home(request):
-    return HttpResponse("Hello khalid jamal, wellcome to my website.")
+    return HttpResponse("Hello khalid jamal, wellcome to my website. hi dear")
 
 
 class Test(APIView):
